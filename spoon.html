@@ -5,7 +5,7 @@
     <script src="js/webpd-latest.js"></script>
     <script>
         var patch
-        $.get('patches/spoon_generative/spoon_generative.pd', function(patchStr) {
+        $.get('patches/spoon_generative.pd', function(patchStr) {
           patch = Pd.loadPatch(patchStr)
           Pd.start()
         })
